@@ -1,0 +1,18 @@
+{
+  "source": "City of Chicago Food Inspections",
+  "dataset_url": "https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5",
+  "api_url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json",
+  "where": "inspection_date >= '2024-01-01T00:00:00' and inspection_date < '2026-01-01T00:00:00'",
+  "fields": [
+    "inspection_id",
+    "inspection_date",
+    "facility_type",
+    "risk",
+    "inspection_type",
+    "results",
+    "zip"
+  ],
+  "source_row_count": 38433,
+  "downloaded_row_count": 38433
+}
+
