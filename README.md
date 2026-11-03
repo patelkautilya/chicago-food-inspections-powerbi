@@ -16,7 +16,7 @@ An interactive, inspection-level review of Chicago food-inspection outcomes in *
 
 ## Dashboard
 
-The two-page [Power BI report](https://app.powerbi.com/groups/me/reports/d2d47cb2-4402-4522-ae2d-24750566e28b/83a2948447d922879021?experience=power-bi) pairs an interactive KPI overview with an outcome and facility detail page. The Power BI service link may require access to my workspace; the previews below are public.
+The two-page [Power BI report](https://app.powerbi.com/groups/me/reports/d2d47cb2-4402-4522-ae2d-24750566e28b/83a2948447d922879021?experience=power-bi) pairs an interactive KPI overview with an outcome and facility detail page. The Power BI service link may require access to my workspace. View the public [two-page PDF export](reports/chicago-food-inspections-report.pdf) or the previews below without Power BI access.
 
 **KPI Overview** displays inspection count, outcome-eligible count, failures, and observed failure rate. A monthly trend and inspection-group comparison respond to risk, year, and facility-group slicers. I verified the year slicer against the source calculations: selecting 2024 displays **21.76%**, and restoring 2024–2025 displays **21.44%**.
 
@@ -26,7 +26,7 @@ The two-page [Power BI report](https://app.powerbi.com/groups/me/reports/d2d47cb
 
 ![Power BI outcome mix donut and facility-group failure-rate comparison](visuals/outcome-facility-detail.png)
 
-The screenshots are a dated report snapshot. The interactive report is backed by the curated CSV in this repository; the screenshots and source extract do not refresh automatically.
+The PDF and screenshots are dated report snapshots. The interactive report is backed by the curated CSV in this repository; the screenshots and source extract do not refresh automatically.
 
 ### What the analysis shows
 
@@ -65,6 +65,7 @@ The repository includes the curated [`data/inspections_analysis.csv`](data/inspe
 | [`data/extract_metadata.json`](data/extract_metadata.json) | Source URL, fields, extract window, source count |
 | [`analysis/summary.json`](analysis/summary.json) | Independently calculated KPI and segment totals |
 | [`reports/FINDINGS.md`](reports/FINDINGS.md) | Stakeholder-facing interpretation and limits |
+| [`reports/chicago-food-inspections-report.pdf`](reports/chicago-food-inspections-report.pdf) | Two-page Power BI PDF export |
 | [`visuals/kpi-overview.png`](visuals/kpi-overview.png) | Public preview of the KPI overview |
 | [`visuals/outcome-facility-detail.png`](visuals/outcome-facility-detail.png) | Public preview of outcome and facility views |
 
